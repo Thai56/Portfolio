@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 .error {
-  
+
 }
 
 body {
@@ -229,8 +229,13 @@ fieldset[disabled] .btn-xl.active {
     font-size: 1.5em;
   }
 }
+#nav-name {
+  color:moccasin;
+  font-family:sans-serif;
+  font-size: 36px;
+}
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/mountain.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -239,7 +244,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: moccasin;
 }
 header .intro-text {
   padding-top: 100px;
@@ -251,6 +256,27 @@ header .intro-text .intro-lead-in {
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
+}
+#heading-scroll {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  line-height: 50px;
+  transition: .3s;
+  margin-top: 16px;
+}
+#heading-scroll a{
+  color: white;
+}
+
+#heading-scroll:hover {
+  border: 2px solid navy;
+  color: inherit;
+}
+#heading-scroll:hover a{
+  color:navy;
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -611,6 +637,9 @@ section#contact :-ms-input-placeholder {
 }
 section#contact .text-danger {
   color: #e74c3c;
+}
+#contact_me {
+  color: white;
 }
 footer {
   padding: 25px 0;
