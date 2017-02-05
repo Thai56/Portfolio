@@ -44,7 +44,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Thai Tran</a>
+                <a id='nav-name'class="navbar-brand page-scroll" href="#page-top">Thai Tran</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -76,8 +76,16 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading">Thai Tran<div><br>
-                  <div class="intro-lead-in"><h2>Full-Stack Web Developer</h2></div>
+                <div class="intro-heading">Thai Tran</div>
+                  <div class="intro-lead-in">
+                    <h2>Web Developer</h2>
+                    <h3 class='fa fa-code'></h3>
+                    <div id='heading-scroll'>
+                      <a class='page-scroll' href="#about">
+                        <i class='fa fa-angle-down'></i>
+                      </a>
+                    </div>
+                  </div>
             </div>
         </div>
     </header>
@@ -244,7 +252,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">I was born and raised in Fairfield, California. I have a diverse background of Construction, Auto, Healthcare, and Hospitality Services. I have fallen in love with web development and have made it not just a passion, but a career.
+                    <p class="large text-muted">I was born and raised in Fairfield, California. I have a diverse background of Construction, Auto, Healthcare, and Hospitality Services. I moved to Utah to further my skills as a developer. I have fallen in love with web development and have made it not just a passion, but a career.
                     The continued emergence of new technologies, frameworks,
                     and languages is exciting and makes this a fantastic time to be on this career path!
                     I'm a full-stack developer with a preference for front-end developement and design. I'm excited to continue learning and growing as a developer. Please feel free to drop me a line with any questions, tips, or opportunities!</p>
@@ -255,15 +263,15 @@
     </section>
 
     <!-- Contact Section -->
-    <!-- <section ng-controller='mainCtrl' id="contact">
+    <section ng-controller='mainCtrl' id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">GET IN TOUCH</h2>
-                    <h3 class="section-subheading text-muted">Feel Free To Reach Out With Any Questions Or Opportunities</h3>
+                    <h2 class="section-heading">Contact me</h2>
+                    <h4 id='contact_me'>thai@thaitran56.com</h4>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <form name="sentMessage" id="contactForm" novalidate>
                         <div class="row">
@@ -299,15 +307,15 @@
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> -->
         </div>
-    </section> -->
+    </section>
 
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; thaitran56.com 2016</span>
+                    <!-- <span class="copyright">Copyright &copy; thaitran56.com 2016</span> -->
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -315,7 +323,7 @@
                         </li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/in/thai-tran"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -326,7 +334,7 @@
                         <li><a href="#">Terms of Use</a>
                         </li>
                     </ul> -->
-                    <span>Thank You For Visiting My Page</span>
+                    <!-- <span>Thank You For Visiting My Page</span> -->
                 </div>
             </div>
         </div>
@@ -481,8 +489,8 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <h2>Teep</h2>
+                                <p class="item-intro text-muted">Teep is a E-commerce Style website that I built. It implements Angular version 1 </p>
                                 <img class="img-responsive img-centered" src="img/NodeServer/teep1.png" alt="">
                                 <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
                                 <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
